@@ -48,10 +48,12 @@
 		<div class="container-fluid">
             <div class="container text-center">
 
-                <h1> Hello World... /> </h1>
+                <h1> I like to tell stories... </h1>
                 <img class="img img-circle" src="assets/img/me/head.jpg" height="120px" width="120px" alt="">
-                <p class="padding-bottom">
-                    I am an IT Student from Vienna, Austria and here are some of the things I love:
+                <p class="container container-text padding-bottom">
+                    I am an IT Student from Vienna, Austria, getting involved in all sorts of things, head full of project ideas I am trying
+                    to make happen. Code, Design, Illustration and Photography are ways to express those ideas, to tell a story with. <br><br>
+                    Here are some things I am passionate about:
                 </p>
 
                 <div class="row padding-left">
@@ -61,7 +63,7 @@
                                 <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Clean Code
                             </li>
                             <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Web Development
+                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Genetics/Macrobiology
                             </li>
                             <li class="list-group-item">
                                 <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Computer Networks
@@ -71,13 +73,13 @@
                     <div class="col-md-4 callout">
                         <ul class="list-group text-left">
                             <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Photography
+                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Photography/Videography
                             </li>
                             <li class="list-group-item">
                                 <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Design/Illustration
                             </li>
                             <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Making videos
+                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Web Development
                             </li>
                         </ul>
                     </div><!-- col-lg-4 -->
@@ -100,13 +102,19 @@
 		</div><!-- greywrap -->
 		
 		<!-- ==== ABOUT ==== -->
-		<div class="container-fluid text-center" id="about" name="about">
+		<div class="container-fluid text-center" id="tech">
                 <div class="container container-text">
                     <h1>IT PROJECTS</h1>
                     <hr>
+                    <br>
                         <p>
-                            Have a look at some IT projects I made or was involved in.
-                            More on my <a href="https://github.com/melaniebalaz"> github </a> .
+                            I have always enjoyed speaking in foreign languages, and to me code has become a great tool
+                            of explaining, building and telling stories. I like my code clean, and I try to stick to the
+                            S.O.L.I.D principles whenever I can. Technology to me is much more than just lines of code,
+                            it is a wonderful tool for getting people together, for sharing knowledge and for solving puzzles.
+                            <br><br>
+                            Have a look at some technology projects I made or was involved in. <br>
+                            You can find more on my <a href="https://github.com/melaniebalaz"> github. </a>
                         </p>
                 </div>
 
@@ -127,22 +135,76 @@
                         <!-- VIDEO 2 -->
                         <div class="col-md-4">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/" allowfullscreen></iframe>
+                                <a data-toggle="modal" href="#iot">
+                                    <div class="hover-holder">
+                                        <img class="img-responsive " src="assets/img/iot.png" alt="">
+                                     </div>
+                                </a>
                             </div>
                             <div class="caption">
                                 <h3 class="white-text">IOT Application</h3>
                             </div>
                         </div><!-- /col -->
 
+
+                        <div class="modal fade dark-text" id="iot" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2> IoT Application </h2>
+                                    </div>
+                                    <div class="modal-body text-justify">
+                                        <p>For this project I was working in a team, and we decided to take a University project and turn it into
+                                        something actually useful and fun. <br><br>
+                                            We developed a distributed IoT application, which is split up into three parts:
+                                        The server (actually a Servlet sitting behind a Tomcat), the client and the application-specific part, which we
+                                        usually just called the app, to the confusion of everyone. The App could be any device
+                                        added to the IOT network, in our case we used an alarm clock and a coffee machine. The server & client code is the same on
+                                        every node in the network, while the app changes with the device. Each node broadcasts what it can do across the network,
+                                        and if some other node is interested, they can subscribe to it. Each time something interesting happens to a device,
+                                        such as a new alarm has been set on the alarm clock, it notifies its subscribers. <br><br>
+                                        A video of the the final presentation, where the alarm rings and at the same time the coffee machine starts making coffee
+                                        on its own, will soon follow.</p>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+
                         <!-- VIDEO 3 -->
                         <div class="col-md-4">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/" allowfullscreen></iframe>
+                                <a data-toggle="modal" href="#intotech">
+                                    <div class="hover-holder">
+                                        <img class="img-responsive " src="assets/img/intotech.png" alt="">
+                                    </div>
+                                </a>
                             </div>
                             <div class="caption">
                                 <h3 class="white-text">IntoTech conference</h3>
                             </div>
                         </div><!-- /col -->
+
+                        <div class="modal fade dark-text" id="intotech" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2> IntoTech Conference </h2>
+                                    </div>
+                                    <div class="modal-body text-justify">
+                                        <p>The IntoTech conference is one of those strange ideas I came up with, that is starting to
+                                        turn into reality now. It is a conference for IT-beginners, first semester IT university students,
+                                        and those who have always been interested in tech but never had the courage to approach it.
+                                        It´ goal is to close the gap between those who work with and build technology every day,
+                                        and the normal "users", to get more people involved in the community and to be the starting point
+                                            for many ideas and projects. It is currently in the project funding stage and will take place
+                                        in Vienna in Autumn 2017.
+                                            <br><br>
+                                            The website for IntoTech I am building will be up in February.
+                                        </p>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
 
 
 
@@ -159,8 +221,9 @@
                 <hr>
                 <br>
                 <p>
-                    I am not only into IT, but I also love to take photographs and make photoshootings with people.
-                    Here are just a few of my photographs, both analog and digital.
+                   Since I was little I was often seen running around with a camera in hand. I love taking photographs, and
+                    having photoshootings with people. I enjoy both analoge and digital photography, and developing my own film in the darkroom.
+                    <br><br>
                     You can find more on my <a href="https://www.viewbug.com/member/melaniejacqueline"> ViewBug </a> or my <a href="https://www.facebook.com/melaniebalazphotography"> Facebook Page </a>.
                 </p>
 
@@ -173,7 +236,9 @@
                     <div class="col-md-4 ">
                         <figure>
                             <a data-toggle="modal" href="#photo1">
-                                <img class="img-responsive" src="assets/img/portfolio/photo/folio01.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio01.jpg" alt="">
+                                </div>
                             </a>
                         </figure><!-- /figure -->
                     </div><!-- row -->
@@ -192,7 +257,9 @@
                     <div class="col-md-4 ">
                         <figure>
                             <a data-toggle="modal" href="#photo2">
-                                <img class="img-responsive" src="assets/img/portfolio/photo/folio02.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio02.jpg" alt="">
+                                </div>
                             </a>
                         </figure><!-- /figure -->
                     </div><!-- /col -->
@@ -210,7 +277,9 @@
                     <div class="col-md-4 ">
                         <figure>
                             <a data-toggle="modal" href="#photo3">
-                                <img class="img-responsive" src="assets/img/portfolio/photo/folio03.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio03.jpg" alt="">
+                                </div>
                             </a>
                         </figure><!-- /figure -->
                     </div><!-- /col -->
@@ -233,7 +302,9 @@
                     <div class="col-md-4 ">
                         <figure>
                             <a data-toggle="modal" href="#photo4">
-                                <img class="img-responsive" src="assets/img/portfolio/photo/folio04.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio04.jpg" alt="">
+                                </div>
                             </a>
                         </figure><!-- /figure -->
                     </div><!-- row -->
@@ -251,9 +322,13 @@
 
                     <div class="col-md-4 ">
                         <figure>
+
                             <a data-toggle="modal" href="#photo5">
-                                <img class="img-responsive" src="assets/img/portfolio/photo/folio05.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio05.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- /col -->
 
@@ -269,9 +344,13 @@
 
                     <div class="col-md-4 ">
                         <figure>
+
                             <a data-toggle="modal" href="#photo6">
-                                <img class="img-responsive" src="assets/img/portfolio/photo/folio06.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio06.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- /col -->
 
@@ -299,8 +378,9 @@
                 <hr>
                 <br>
                 <p>
-                    Over the years I have done quite a few graphic design jobs, and gotten quite good at throwing stuff
-                    together with Photoshop, Illustrator and InDesign.
+                    I have experience with working with Illustrator, Photoshop and InDesign and over the years I have done a few
+                    smaller graphic design jobs. I have created Logos, Flyers, Webdesigns and Pictograms and even though
+                    I am not trying to work as a graphic designer anymore, I try to keep up by practicing once in a while.
                 </p>
             </div>
             <div class="container">
@@ -310,8 +390,11 @@
                     <div class="col-md-4 ">
                         <figure>
                             <a data-toggle="modal" href="#photo7">
-                                <img class="img-responsive" src="assets/img/portfolio/design/folio07.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/design/folio07.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- row -->
 
@@ -335,9 +418,13 @@
 
                     <div class="col-md-4 ">
                         <figure>
+
                             <a data-toggle="modal" href="#photo8">
-                                <img class="img-responsive" src="assets/img/portfolio/design/folio08.png" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/design/folio08.png" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- /col -->
 
@@ -358,9 +445,13 @@
 
                     <div class="col-md-4 ">
                         <figure>
+
                             <a data-toggle="modal" href="#photo9">
-                                <img class="img-responsive" src="assets/img/portfolio/design/folio09.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/design/folio09.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- /col -->
 
@@ -386,9 +477,13 @@
                     <!-- PORTFOLIO IMAGE 1 -->
                     <div class="col-md-4 ">
                         <figure>
+
                             <a data-toggle="modal" href="#photo10">
-                                <img class="img-responsive" src="assets/img/portfolio/design/folio10.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/design/folio10.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- row -->
 
@@ -410,9 +505,13 @@
 
                     <div class="col-md-4 ">
                         <figure>
+
                             <a data-toggle="modal" href="#photo11">
-                                <img class="img-responsive" src="assets/img/portfolio/design/folio11.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/design/folio11.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- /col -->
 
@@ -433,9 +532,13 @@
 
                     <div class="col-md-4 ">
                         <figure>
+
                             <a data-toggle="modal" href="#photo12">
-                                <img class="img-responsive" src="assets/img/portfolio/design/folio12.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/design/folio12.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- /col -->
 
@@ -461,22 +564,30 @@
 
         <!-- ==== ILLUSTRATION ==== -->
         <div class="container-fluid text-center" id="illustration">
-            <div class="container">
+            <div class="container container-text">
                 <h1>ILLUSTRATION</h1>
                 <hr>
                 <br>
                 <div class="padding-bottom">
                     <p>
-                        I love illustrating, whether it is on paper or digital.
+                        I like adding an illustrated touch to graphic design projects, and I enjoy working with different media.
+                        Whether it is a digital painting, a vector graphic or a pen&paper sketch.
+                        I have illustrated book covers,
+                        created my own graphic novel with aquarell colors, created a few acrylic paintings and filled a
+                        couple of sketchbooks.
                     </p>
                 </div><!-- col-lg -->
+            </div>
+            <div class="container">
 
                 <div class="row">
                     <!-- PORTFOLIO IMAGE 1 -->
                     <div class="col-md-4 ">
                         <figure>
                             <a data-toggle="modal" href="#photo13">
-                                <img class="img-responsive" src="assets/img/portfolio/illustration/illu1.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/illustration/illu1.jpg" alt="">
+                                </div>
                             </a>
                         </figure><!-- /figure -->
                     </div><!-- row -->
@@ -494,9 +605,13 @@
 
                     <div class="col-md-4 ">
                         <figure>
+
                             <a data-toggle="modal" href="#photo14">
-                                <img class="img-responsive" src="assets/img/portfolio/illustration/illu2.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/illustration/illu2.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- /col -->
 
@@ -513,8 +628,11 @@
                     <div class="col-md-4 ">
                         <figure>
                             <a data-toggle="modal" href="#photo15">
-                                <img class="img-responsive" src="assets/img/portfolio/illustration/illu3.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/illustration/illu3.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- /col -->
 
@@ -536,8 +654,11 @@
                     <div class="col-md-4 ">
                         <figure>
                             <a data-toggle="modal" href="#photo16">
-                                <img class="img-responsive" src="assets/img/portfolio/illustration/illu4.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/illustration/illu4.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- row -->
 
@@ -554,9 +675,13 @@
 
                     <div class="col-md-4 ">
                         <figure>
+
                             <a data-toggle="modal" href="#photo17">
-                                <img class="img-responsive" src="assets/img/portfolio/illustration/illu5.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/illustration/illu5.jpg" alt="">
+                                </div>
                             </a>
+
                         </figure><!-- /figure -->
                     </div><!-- /col -->
 
@@ -573,7 +698,9 @@
                     <div class="col-md-4 ">
                         <figure>
                             <a data-toggle="modal" href="#photo18">
-                                <img class="img-responsive" src="assets/img/portfolio/illustration/illu6.jpg" alt="">
+                                <div class="hover-holder">
+                                    <img class="img-responsive " src="assets/img/portfolio/illustration/illu6.jpg" alt="">
+                                </div>
                             </a>
                         </figure><!-- /figure -->
                     </div><!-- /col -->
@@ -611,11 +738,11 @@
                 <a href="https://www.facebook.com/melaniebalazphotography">
                     <i class="fa fa-facebook-square social-media" aria-hidden="true"></i>
                 </a>
+                <a href="https://www.linkedin.com/in/melanie-balaz-13ab78132">
+                    <i class="fa fa-linkedin-square social-media" aria-hidden="true"></i>
+                </a>
                 <a href="https://twitter.com/melaniebalaz">
                     <i class="fa fa-twitter-square social-media" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.viewbug.com/member/melaniejacqueline">
-                    <i class="fa fa-camera social-media" aria-hidden="true"></i>
                 </a>
 
 

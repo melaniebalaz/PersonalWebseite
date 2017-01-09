@@ -68,21 +68,22 @@ header h2 {
     height: 100vh;
 }
 
-#about {
-    background-color:#425362;
+#tech {
+    background-color:#455668;
     color:white;
 }
 
-#about h1 {
+#tech h1 {
     color:#c4c9cf;
 }
 
-#photography {
-    background:#d4d8e1;
-}
 
 .white-text {
     color:white;
+}
+
+.dark-text {
+    color:#555;
 }
 
 hr {
@@ -93,6 +94,16 @@ hr {
 .heart-icon {
     font-size:0.7em;
     color:#425362;
+}
+
+body a {
+    color:#97B1A6;
+
+}
+
+
+body a:hover, a:focus {
+    color:#CAD178;
 }
 
 body a .social-media{
@@ -135,3 +146,27 @@ body a .social-media:hover, a .social-media:focus {
 #design h4 {
     color:#c2c6cf;
 }
+
+
+.hover-holder {
+    position: relative;
+    max-width: 435px;
+}
+
+
+.hover-holder img {
+    display: block;
+    max-width: 100%;
+}
+
+.hover-holder:hover:after {
+    cursor:pointer;
+    content: '';
+    background: rgba(30, 30, 30,0.2);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
