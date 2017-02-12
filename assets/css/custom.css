@@ -77,13 +77,20 @@ header h2 {
 /** SECTIONS **/
 
 .full-screen-image {
-    background:url("../img/header_bg.jpg") fixed no-repeat;
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     height: 100vh;
+}
+
+.home-bg {
+    background:url("../img/header_bg.jpg") fixed no-repeat;
+}
+
+.blog-bg {
+    background:url("../img/blog_header_bg.png") fixed no-repeat;
 }
 
 #tech {
