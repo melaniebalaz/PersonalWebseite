@@ -5,6 +5,24 @@ body {
     color: #555;
 }
 
+
+.navbar {
+    background-color:transparent;
+    border-bottom:none;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:#c4c9cf;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:white;
+}
+
+.navbar-fixed-top {
+    position:absolute;
+}
+
 a:hover, a:focus {
     text-decoration: none;
 }
@@ -97,13 +115,13 @@ hr {
 }
 
 body a {
-    color:#97B1A6;
+    color:#799CAC;
 
 }
 
 
 body a:hover, a:focus {
-    color:#CAD178;
+    color:#281F1E;
 }
 
 body a .social-media{
@@ -118,7 +136,6 @@ body a .social-media:hover, a .social-media:focus {
 
 
 .social-media {
-    font-size:1.7em;
     padding-top:20px;
     padding-bottom:50px;
     padding-left:0.5em;
@@ -169,4 +186,11 @@ body a .social-media:hover, a .social-media:focus {
     top: 0;
     bottom: 0;
 }
+
+
+/**BLOG STYLES **/
+
+
+
+
 

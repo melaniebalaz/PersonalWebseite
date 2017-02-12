@@ -31,8 +31,19 @@
   </head>
 
   <body>
-  
-  
+
+
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+              <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="blog.html">Blog</a></li>
+                  </ul>
+              </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
 		<!-- ==== HEADERWRAP ==== -->
         <header>
             <div class="container-fluid full-screen-image">
@@ -99,7 +110,7 @@
                 </div><!-- row -->
             </div>
 		</div><!-- greywrap -->
-		
+
 		<!-- ==== ABOUT ==== -->
 		<div class="container-fluid text-center" id="tech">
                 <div class="container container-text">
@@ -133,13 +144,9 @@
 
                         <!-- VIDEO 2 -->
                         <div class="col-md-4">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <a data-toggle="modal" href="#iot">
-                                    <div class="hover-holder">
-                                        <img class="img-responsive " src="assets/img/iot.png" alt="">
-                                     </div>
-                                </a>
-                            </div>
+                          <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/csPI1gFzXlY" allowfullscreen></iframe>
+                          </div>
                             <div class="caption">
                                 <h3 class="white-text">IOT Application</h3>
                             </div>
@@ -198,7 +205,7 @@
                                             for many ideas and projects. It is currently in the project funding stage and will take place
                                         in Vienna in Autumn 2017.
                                             <br><br>
-                                            The website for IntoTech I am building will be up in February.
+                                            <a href="https://into.technology/"> IntoTech Website </a>
                                         </p>
                                     </div>
                                 </div><!-- /.modal-content -->
@@ -212,7 +219,7 @@
 
 		</div><!-- container -->
 
-		
+
 		<!-- ==== PHOTOGRAPHY ==== -->
 		<div class="container-fluid text-center" id="photography">
             <div class="container container-text">
@@ -368,7 +375,7 @@
         </div>
 
 
-		
+
 		<!-- ==== DESIGN ==== -->
 		<div class="container-fluid text-center" id="design" name="design">
 
@@ -732,16 +739,28 @@
                 </p>
 
                 <a href="https://github.com/melaniebalaz">
-                    <i class="fa fa-github social-media" aria-hidden="true"></i>
+                <span class="fa-stack fa-lg social-media">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
                 </a>
                 <a href="https://www.facebook.com/melaniebalazphotography">
-                    <i class="fa fa-facebook-square social-media" aria-hidden="true"></i>
+                <span class="fa-stack fa-lg social-media">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
                 </a>
                 <a href="https://www.linkedin.com/in/melanie-balaz-13ab78132">
-                    <i class="fa fa-linkedin-square social-media" aria-hidden="true"></i>
+               <span class="fa-stack fa-lg social-media">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
                 </a>
                 <a href="https://twitter.com/melaniebalaz">
-                    <i class="fa fa-twitter-square social-media" aria-hidden="true"></i>
+                <span class="fa-stack fa-lg social-media">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
                 </a>
 
 
@@ -750,12 +769,12 @@
             <div class="container-fluid text-center footer-color">
                 <p> Made with <i class="fa fa-heart" aria-hidden="true"></i> by Melanie Balaz - Copyright 2017</p>
             </div>
-		<footer>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-		
+
 
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
