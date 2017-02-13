@@ -11,6 +11,12 @@ body {
     border-bottom:none;
 }
 
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: black;
+}
+
 .navbar-default .navbar-nav > li > a{
     color:#c4c9cf;
 }
@@ -134,7 +140,6 @@ hr {
 
 body a {
     color:#799CAC;
-
 }
 
 
@@ -210,5 +215,7 @@ body a .social-media:hover, a .social-media:focus {
 
 
 
-
+.author-name {
+    color:#C1C1C3;
+}
 
