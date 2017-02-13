@@ -27,10 +27,19 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
+
 h1 {
    color:#425362;
     font-family: arvo;
     padding-bottom:30px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:25px;
+    }
 }
 
 .header-text {
@@ -47,9 +56,7 @@ header h2 {
     padding:30px;
 }
 
-.container-text {
-    width:70%;
-}
+
 
 .list-group-item {
     background:transparent;
