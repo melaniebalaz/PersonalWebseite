@@ -83,21 +83,25 @@ header h2 {
 
 /** SECTIONS **/
 
-.full-screen-image {
-    text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height: 100vh;
-}
 
 .home-bg {
     background:url("../img/header_bg.jpg") fixed no-repeat;
+    background-size: cover;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:100vh;
 }
 
 .blog-bg {
     background:url("../img/blog_header_bg.png") fixed no-repeat;
+    background-size: cover;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:100vh;
 }
 
 #tech {
